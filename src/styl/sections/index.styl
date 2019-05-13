@@ -46,8 +46,13 @@ section.mission
             font-weight bold
         h3.service-title
             color #212121
-            font-size 18px
+            font-size 14px
             font-weight bold
+            margin 0
+            max-width 500px
+            padding 5px
+            a
+                color #827717
     .side-image
         background-image url('../img/img2.jpg')
         background-position center center
@@ -58,7 +63,7 @@ section.mission
         @media screen and (max-width: 600px)
             width 100%
     .carousel
-        width 40%
+        width 50%
         @media screen and (max-width: 980px)
             width 100%
         .item
@@ -83,10 +88,15 @@ section.mission
             font-weight bold
         h3.course-title
             color #212121
-            font-size 18px
+            font-size 14px
             font-weight bold
+            margin 0
+            max-width 500px
+            padding 5px
+            a
+                color #827717
     .carousel
-        width 40%
+        width 50%
         @media screen and (max-width: 980px)
             width 100%
         .item
@@ -127,6 +137,8 @@ section.warrantees
         line-height 28px
         margin 0 auto
         max-width 700px
+    a
+        color #ffffff
 section.contact
     background-color #ffffff
     padding 70px 30px
@@ -145,8 +157,15 @@ section.contact
                 font-weight bold
             h3
                 color #212121
-                font-size 18px
+                font-size 14px
                 font-weight bold
+                margin 0
+                max-width 500px
+                padding 5px
+                a
+                    color #827717
+                    &.facebook-link
+                        color #212121
         .phones
             h1
                 color #212121
@@ -154,5 +173,35 @@ section.contact
                 font-weight bold
             h3
                 color #212121
-                font-size 18px
+                font-size 14px
                 font-weight bold
+                margin 0
+                max-width 500px
+                padding 5px
+                a
+                    color #827717
+a.facebook-link
+    color #212121
+    .fa-facebook-square
+        color #0d47a1
+.whatsapp-section
+    bottom 50px
+    position fixed
+    right 30px
+    a
+        text-decoration none
+        &:hover
+            text-decoration none
+        .whatsapp-icon
+            align-items center
+            background-color #76ff03
+            border-radius 30px
+            box-shadow 3px 3px 5px rgba(0,0,0,0.3)
+            color: #ffffff
+            display flex
+            flex-direction column
+            justify-content center
+            height 60px
+            width 60px
+
+
